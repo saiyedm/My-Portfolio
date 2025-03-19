@@ -1,1 +1,2 @@
 # My-Portfolio
+As a Specialized Honours BSc student in Computer Security at Lassonde School of Engineering, York University, I am developing a solid foundation in cybersecurity and software development. My current skills include HTML, HTML5, CSS, JavaScript, and Java, which I have applied in various web development projects. I am passionate about leveraging my technical skills and academic knowledge to tackle real-world security challenges and contribute to innovative solutions in the cybersecurity field.
