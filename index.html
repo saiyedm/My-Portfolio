@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> <!-- This specifies the character encoding for the webpage.widely used encoding that supports almost all characters-->
+    <meta name="viewport" content="width= device-width , initial-scale = 1.0"> <!--  width=device-width: Makes the page width match the device’s screen width. initial-scale=1.0: Ensures the page loads at a 1:1 scale, preventing automatic zoom-out. -->
+  <title>
+    Mehwish's Portfolio Website 
+  </title><!-- Website title-->
+<link rel="stylesheet" href="style.css">
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/> <!-- web friendly icons and fonts to be used for free -->
+  </head>
+
+<body>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='title'>
+  
+  <header class="header"> <!-- type header.header for creating any class with its name written-->
+<a href="#home" class="logo"> <!-- logo in the header pointing back to home page -->
+  Mehwish <span> Saiyed </span>
+</a>
+<i class="bx bx-menu" id="menu-icon"></i> <!-- take from boxicons websit which is opensource and free and has small codes for icons -->
+<nav class="navbar"><!-- menu bar at the header with the links to their pages -->
+  <a href="#home"> Home </a> <!-- Shift + Alt + Down Arrow or up arrow to copy the line in windows-->
+  <a href="#about"> About </a> <!-- Mac- shift + option + up arrow while being on the same line -->
+  <a href="#projects"> Projects </a>
+  <a href="#contact"> Contact </a>
+  
+</nav>
+<button class="grad-button" onclick= "document.location='#contact'" > Contact Me </button>
+</header>
+
+
+<section class="home" id="home"> 
+  <div class="home-content">
+  <h1> Hi, It's <span> Mehwish </span> </h1>
+  <h3> I'm a <span class="typing"> Computer Security Major</span>
+  </h3>
+  <p>
+    As a Specialized Honours BSc student in Computer Security at 
+    Lassonde School of Engineering, York University, I am developing a 
+    solid foundation in cybersecurity and software development. 
+    My current skills include HTML, HTML5, CSS, JavaScript, and Java, 
+    which I have applied in various web development projects. I am passionate 
+    about leveraging my technical skills and academic knowledge to tackle real-world 
+    security challenges and contribute to innovative solutions in the cybersecurity field.
+  </p>
+  <div class="social-icons">
+    <a href="https://github.com/saiyedm"><i class="bx bxl-github"></i></a>
+    <a href="https://www.linkedin.com/in/mehwish-saiyed"> <i class="bx bxl-linkedin-square"></i></a>
+  </div>
+
+<div class="btngroup"> 
+  <a href="#contact" class="btn">Get in Touch</a>
+</div>
+
+  </div>
+  <div class="home-image">
+    <img src="image.jpeg" alt="">
+  </div>
+</section>
+ <section class="about" id="about">
+
+  <div class="about-image">
+    <img src="image.jpeg" alt="">
+  </div>
+
+  <div class="about-content">
+    <h2>About <span> Me </span></h2>
+    <p>
+      As a Specialized Honours BSc student in Computer Security at 
+    Lassonde School of Engineering, York University, I am developing a 
+    solid foundation in cybersecurity and software development. 
+    My current skills include HTML, HTML5, CSS, JavaScript, and Java, 
+    which I have applied in various web development projects. I am passionate 
+    about leveraging my technical skills and academic knowledge to tackle real-world 
+    security challenges and contribute to innovative solutions in the cybersecurity field.
+    </p>
+    <a href="https://www.linkedin.com/in/mehwish-saiyed" class="btn"> Read more</a>
+  </div>
+ </section>
+
+ <section class="projects" id="projects">
+  <h2 class="heading"> PROJECTS </h2>
+  <div class="projectbox">
+
+    <div class="projectcard"> 
+      <img src="p1.png" alt="">
+      <h3> Guess the Number</h3>
+      <p> Designed and developed a responsive number-guessing game using HTML, CSS, and JavaScript. 
+        Built server-side logic with Node.js and Express, enabling real-time gameplay and leaderboard 
+        tracking with MySQL. Enhanced user experience with multiple difficulty levels and optimized 
+        performance through automated testing and debugging for seamless cross-platform compatibility.
+      </p>
+      <a href="https://number-guessing-game-xkfq.onrender.com/index.html">
+      <div  class="btn" > Review Project </div></a>
+    </div>
+    <div class="projectcard"> 
+      <img src="p4.png" alt="">
+      <h3> Cautious Cuisine
+      </h3>
+      <p>
+        Created Cautious Cuisine helping individuals with food allergies find safe 
+        dining options. Built with HTML, CSS, and JavaScript, it allows users to 
+        filter meals from restaurants based on dietary needs. Integrated a custom 
+        menu-filtering system for seamless navigation. Future plans include 
+        location-based search, restaurant expansion, and nutrition fact integration 
+        to enhance informed dining decisions.  
+      </p>
+      <a href="https://devpost.com/software/allergy-appetites">
+      <div class="btn">Review Project</div></a>
+    </div>
+    <div class="projectcard"> 
+      <img src="p2.png" alt="">
+      <h3> ClickShield
+      </h3>
+      <p>ClickShield is a Google Chrome extension designed to help users identify 
+        phishing, fraud, or scam websites in real time. This extension leverages an 
+        AI-powered backend hosted via Flask, which provides personalized results on 
+        whether a website is safe or not. The core functionality is powered by Google 
+        Safe Browsing API, ensuring reliable data for web safety checks. Received 
+        shoutout from TD Bank for the impact on protection against fraud.
+      </p>
+      <a href="https://github.com/Arshya-tech/ClickShield">
+      <div class="btn">Review Project</div></a>
+    </div>
+
+    <div class="projectcard"> 
+      <img src="p3.png" alt="">
+      <h3> Food Bridge
+      </h3>
+      <p>
+        Developed FoodBridge, a real-time platform that connects surplus food from 
+        businesses and individuals to local food banks and charities. Built with HTML, 
+        CSS, JavaScript, and Firebase, enabling real-time updates, geolocation-based 
+        mapping, and donation tracking. Integrated food safety guidelines to ensure compliance. 
+        Currently exploring AI-driven surplus prediction models to optimize donation matching and 
+        minimize food waste.
+      </p>
+      <a href="https://devpost.com/software/foodbridge-wiktg5">
+      <div class="btn">Review Project</div></a>
+    </div>
+
+    
+  </div>
+
+
+ </section>
+
+<section class="contact" id="contact">
+  <h2 class="heading"> Get In Touch </h2>
+  <form action="https://api.web3forms.com/submit" method="POST">
+  <div class="inputgroup">
+    <input type="hidden" name="access_key" value="4ac1a20c-f0e2-49eb-9d45-e7ff85bf1fa0">
+
+    <div class="inputbox">
+      <input type="text"  name="name" placeholder="Name" required >
+      <input type="email" name="email" placeholder="Email" required>
+    </div>
+
+    <div class="inputbox">
+      <input type="number" name="number" placeholder="Phone Number">
+      <input type="text" name="Subject" placeholder="Subject">
+    </div>
+  </div>
+
+    <div class="inputgroup2">
+      <textarea placeholder="Your Message" name="Message" id="" cols="40" rows="12"> </textarea>
+      <input name="Message" type="submit" value="Send Message" class="btn">
+    </div>
+
+</form>
+</section>
+
+<footer class="footer"> 
+  <div class="social-icons">
+    <a href="https://github.com/saiyedm">
+       <i class="bx bxl-github"></i>
+      </a>
+    <a href="https://www.linkedin.com/in/mehwish-saiyed"> <i class="bx bxl-linkedin-square">  </i></a>
+  </div>
+<ul class="list"> 
+  <li> <a href="#about">About me</a> </li>
+  <li> <a href="#projects">Projects</a> </li>
+  <li> <a href="#contact">Contact</a> </li>  
+</ul>
+
+<p class="copyright"> © Mehwish Saiyed | All Rights Reserved </p>
+</footer>
+ <!-- Adding the typing animation from typed library -->
+  <!-- linking javascript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
+    
+
